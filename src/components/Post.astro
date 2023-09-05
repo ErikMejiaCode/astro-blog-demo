@@ -20,12 +20,14 @@ const {post} = Astro.props
         format = "webp"
         />
     </a>
-    <a href={`blog/${post.slug}`}
-    class="text-4xl text-zinc-900 font-semibold inline-block"
+    <a 
+        href={`/blog/${post.slug}`}
+        class="text-4xl text-zinc-900 font-semibold inline-block"
     >
-    <h2>{post.data.title}</h2>
+        <h2>{post.data.title}</h2>
     </a>
-    <p class="text-zinc-500 text-2xl line-clamp-2">
+    <p class="text-zinc-500 text-2xl  line-clamp-2">
         {post.body}
     </p>
+
 </article>
