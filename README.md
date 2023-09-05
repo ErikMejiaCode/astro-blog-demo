@@ -1,3 +1,8 @@
+Demo - 
+
+https://github.com/ErikMejiaCode/astro-blog-demo/assets/112577065/ac65229a-0df9-4382-a43c-101070f9ba91
+
+
 # Astro Starter Kit: Basics
 
 ```
